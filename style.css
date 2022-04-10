@@ -1049,81 +1049,9 @@ header{
     .main{
         display: grid;
         place-items: center;
+
         
-      
-      }
-      .thank-card{
-        backdrop-filter: blur(10px) ;
-        width: 40vw;
-        height: 90vh; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        box-sizing: border-box;
-        padding: 10px;
-        margin-top: 10px;
-        border-radius: 5%;
-        box-shadow: 3px 7px 15px -1px rgba(0,0,0,0.5);
-      }
-      
-      @media screen and (max-width:600px){
-        .main{
-          display: grid;
-          place-items: center;
-        }
-        .thank-card{
-          overflow: hidden;
-          backdrop-filter: blur(10px) ;
-          width: 75vw;
-          height: 90vh; 
-          /* display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          box-sizing: border-box; */
-          padding: 10px;
-          margin-top: 10px;
-          border-radius: 5%;
-          box-shadow: 3px 7px 15px -1px rgba(0,0,0,0.5);
-        }
-        .thank-heading{
-          font-family: 'Great Vibes';
-          font-size: 50px;
-          /* font-style: bold; 
-           text-transform: capitalize;
-          margin: 0;
-          padding: 0; */
-        }
-        .thank-encircled-logo{
-          width: 100px;
-          height: 100px;
-          margin: 0;
-          padding: 0;
-        }
-        .thank-para{
-          font-family: 'Montserrat';
-          /* font-style: bold; */
-          font-size: 10px;
-          color: rgba(0, 0, 0, 0.9);
-          
-          
-        
-        }
-        .thank-button{
-          background-color: #B91C1C;
-          padding: 15px 20px;
-          border-radius: 10px;
-          color: white;
-          font-family: 'Poppins';
-          font-weight: 500;
-          text-align: center;
-          letter-spacing: 0.07em;
-          text-decoration: none;
-          text-transform: uppercase;
-        
-        }
-      }
+    }
       
       
       @media screen and (max-width:300px){ 
@@ -1135,7 +1063,6 @@ header{
           overflow: scroll;
           backdrop-filter: blur(10px) ;
           width: 85vw;
-          height: 70vh; 
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -1151,14 +1078,12 @@ header{
           font-size: 25px;
           /* font-style: bold; 
            text-transform: capitalize;
-          margin: 0;
-          padding: 0; */
+ */
         }
         .thank-encircled-logo{
           width: 100px;
           height: 100px;
-          margin: 0;
-          padding: 0;
+
         }
         .thank-para{
           font-family: 'Montserrat';
@@ -1185,10 +1110,74 @@ header{
       }
       
       
+      @media screen and (max-width:600px){
+        .main{
+          display: grid;
+          place-items: center;
+        }
+        .thank-card{
+          overflow: hidden;
+          backdrop-filter: blur(10px) ;
+          width: 75vw;
+          /* display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          box-sizing: border-box; */
+          padding: 10px;
+          margin-top: 10px;
+          border-radius: 5%;
+          box-shadow: 3px 7px 15px -1px rgba(0,0,0,0.5);
+        }
+        .thank-heading{
+          font-family: 'Great Vibes';
+          font-size: 50px;
+ 
+        }
+        .thank-encircled-logo{
+          width: 100px;
+          height: 100px;
+
+        }
+        .thank-para{
+          font-family: 'Montserrat';
+          /* font-style: bold; */
+          font-size: 10px;
+          color: rgba(0, 0, 0, 0.9);
+          
+          
+        
+        }
+        .thank-button{
+          background-color: #B91C1C;
+          padding: 15px 20px;
+          border-radius: 10px;
+          color: white;
+          font-family: 'Poppins';
+          font-weight: 500;
+          text-align: center;
+          letter-spacing: 0.07em;
+          text-decoration: none;
+          text-transform: uppercase;
+        
+        }
+      }
       
-      
-      
-      /* pc */
+    /* pc */
+    .thank-card{
+        backdrop-filter: blur(10px) ;
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5%;
+        box-shadow: 3px 7px 15px -1px rgba(0,0,0,0.5);
+      }
+ 
       .thank-heading{
         font-family: 'Great Vibes';
         font-size: 150px;
@@ -1208,9 +1197,7 @@ header{
         /* font-style: bold; */
         font-size: 15px;
         color: rgba(0, 0, 0, 0.9);
-        
-        
-      
+
       }
       .thank-button{
         background-color: #B91C1C;
@@ -1226,3 +1213,5 @@ header{
         text-transform: uppercase;
       
       }
+      
+    
