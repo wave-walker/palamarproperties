@@ -1233,3 +1233,8 @@ header{
     text-transform: uppercase;
 
 }
+.back-blur{
+    backdrop-filter: blur(7px) saturate(1.2);
+
+
+  }
