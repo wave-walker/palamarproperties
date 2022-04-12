@@ -1402,7 +1402,68 @@ header{
 }
 .aboutGlass{
     /* background-color: aliceblue; */
-
     backdrop-filter: blur(10px);
     box-shadow: 0 10px 15px -3px rgb(0,0,0, 0.4)
+}
+
+.pulse-animate{
+    animation: pulsate-blink 2s infinite ease;
+
+}
+@keyframes pulsate-blink {
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+
+/*  */
+.badge-gray {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    padding: 5.5px;
+    border-radius: 50%;
+    background-color: #475569;
+    animation: pulse-gray 1.5s infinite ease;
+  }
+
+@keyframes pulse-gray {
+    0%{
+        box-shadow: 0 0 0 0 #475569;
+    }
+    75%{
+        box-shadow: 0 0 0 10px #47556900;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .badge-yellow {
+        position: relative;
+        bottom: 15px;
+        left: 22px;
+        height: 2px;
+        padding: 6px;
+        border-radius: 50%;
+        background-color: #b45309;
+        animation: pulse-yellow 1.5s infinite ease;
+      }
+    @keyframes pulse-yellow {
+        0%{
+            box-shadow: 0 0 0 0 #b45309;
+        }
+        75%{
+            box-shadow: 0 0 0 10px #b4530900;
+        }
+    }
 }
